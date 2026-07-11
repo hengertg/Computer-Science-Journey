@@ -2,9 +2,10 @@
 
 This repository documents my journey of learning Computer Science from first principles.
 
-Instead of focusing only on programming languages, this repository is dedicated to understanding the theory behind software engineering.
+Instead of only learning programming languages, I'm focusing on understanding how computers and software actually work.
 
 ## 📚 Topics
+
 - Algorithms
 - Data Structures
 - Complexity Analysis
@@ -13,15 +14,24 @@ Instead of focusing only on programming languages, this repository is dedicated 
 - Databases
 - Mathematics
 - Software Engineering
-## 🎯 Goal
 
-Build a strong Computer Science foundation that will help me become a better Software Engineer.
+## 📖 Learning Resources
 
-## 📖 Resources
 - CS50
 - OSSU Computer Science
-- Books
-- Personal Notes
+
+## 📂 Repository Structure
+
+Notes/
+
+Exercises/
+
+CS50/
+
+OSSU/
+
 ## 🚀 Status
 
-In Progress
+Currently studying Python.
+
+Computer Science studies will begin after completing my Python roadmap.
