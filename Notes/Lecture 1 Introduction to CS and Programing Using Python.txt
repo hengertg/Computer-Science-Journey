@@ -185,5 +185,5 @@ ASPECT of LANGUAGES
 
 But the meaning may not bet what programmer intended
 =====================================================================
-WHERE THIGS GO WRONG
+WHERE THINGS GO WRONG
 =====================================================================
