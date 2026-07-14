@@ -1,0 +1,189 @@
+En computer science se trabaja types of knowledge que es basicamente un recipe
+
+=====================================================================
+Types of knowledge
+=====================================================================
+
+Declarative knowledge: is a statement of fact
+
+Imperative knowledge is a recepie of "how-to"
+=====================================================================
+
+programming is about writing recepies to generate facts
+=====================================================================
+Numerical Example
+=====================================================================
+
+- Square root of a number x is y such y*y = x
+
+- Start with guess, g
+
+1) if g*g is close enough to x stop and say g is the answer
+
+2) Otherwise make a new guess by averaging g and x/g
+
+3) Using the new guess, repeat process until close enough
+
+Let's try it for x = 16 and initial guess of 3
+
+g         g*g         x/g         (g+x/g)/2
+
+3         9           16/3          4.17
+
+4.17      17.36       3.837         4.0035
+
+4.0035    16.0277     3.997         4.000002
+=====================================================================
+
+Primer guess
+
+3
+
+↓
+
+Calculamos
+
+16/3
+
+=
+
+5.333333
+
+↓
+
+Ahora tenemos
+
+3 -------------------- 5.333333
+
+↓
+
+Tomamos el punto medio
+
+↓
+
+(3 + 5.333333)/2
+
+=
+
+4.166666
+
+=====================================================================
+What we have there is an algorithm
+=====================================================================
+
+1) A sequence of simple steps
+
+2) Flow of control process that specifies when each steps is executed
+
+3) A means of determining when to stop
+=====================================================================
+ALGORITHM are RECIPES
+
+RECIPES are ALGORITHM
+=====================================================================
+
+- Bake cake from a box
+  
+  1) Mix dry ingridents
+  2) Add eggs and milk
+  3) Pour mixture in a pan
+  4) Bake at 350F for 5 minutes
+  5) Stick a toothpick in the cake
+    - 6) if toothpick does not come out clean, repeat step 4 and 5
+    - 6b) Otherwise, take a pan out of the oven 
+  7) Eat
+=====================================================================
+COMPUTER are MACHINES that EXECUTE ALGORITHM
+
+- Two things computers do:
+
+  performs simple operations
+  100s bilions per second
+
+  Remember results
+  100s of gigabytes of storage
+
+- What kinds of calculations
+
+  Built-in to the machine, e.g.,+
+
+  Ones that you define as the programmer
+
+The BIG IDEA here?
+=====================================================================
+A COMPUTER WILL ONLY DO WHAT YOU TELL IT TO DO
+=====================================================================
+COMPUTERS are MACHINES That EXECUTE ALGORITHM
+
+- Fixed programs computer
+  
+  - fixed set of algorithm
+  - What we had until 1940's
+
+- Store program computer
+
+  - Machine stores and execute instructions 
+
+- Key insight: Programs are no different from other kind of data
+=====================================================================
+STORED PROGRAM COMPUTER
+=====================================================================
+
+- Sequence of instruction stored inside computer
+
+  - Built from predefined set of primitve instructions
+
+1) Arithmetic and logical
+2) Simple tests
+3) Moving data
+
+- Special program(interpreter) executes each instrucion in order
+
+  - Use tests to change flow of control through sequence
+  - Stops when it runs out of instructions or executes a halt instruction
+=====================================================================
+BASIC PRIMITIVES
+=====================================================================
+
+- Turing showed that you can compute anything with a very simple machine with only 6 primitevs: left, right, print, scan, erase, no op
+
+- Real programming languages have
+  
+  - More convenient set of PRIMITIVES
+  - Ways to combine primitives to create new primitives
+
+- Anything computable in one language is computable in any other programming language
+=====================================================================
+ASPECT of LANGUAGES
+
+- Primitive constructs
+
+  - English: Words
+  - Programming languages: numbers, strings simple operators
+=====================================================================
+ASPECTS of LANGUAGES
+=====================================================================
+
+- Syntax
+
+  - English "cat dog boy" -> not syntatically valid
+            "cat hugs boy" -> syntatically valid
+
+  - Programming language "hi"5 -> not syntatically valid
+                          "hi"*5 -> syntatically valid
+=====================================================================
+ASPECT of LANGUAGES
+=====================================================================
+
+- Static semantics: which syntatically valid strings have meaning
+
+  - English: "I are hungry" -> syntatically valid
+                                but static semantics error
+
+  - PL "hi"+5 -> syntatically valid
+                but static semantics error
+
+But the meaning may not bet what programmer intended
+=====================================================================
+WHERE THIGS GO WRONG
+=====================================================================
