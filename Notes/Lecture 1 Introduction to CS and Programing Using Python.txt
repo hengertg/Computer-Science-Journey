@@ -1,4 +1,94 @@
-En computer science se trabaja types of knowledge que es basicamente un recipe
+# Lecture 1 - Introduction to Computer Science
+
+## 📚 Key Concepts
+
+- An algorithm is a recipe or a sequence of steps used to solve a problem.
+- A computer executes instructions one by one.
+- Every program is built using simple operations:
+  - Moving data
+  - Arithmetic operations
+  - Logical decisions
+
+---
+
+## 🆕 New Things I Learned
+
+### Variables
+
+A variable is **not** a box that stores a value.
+
+A variable is a **name that refers to an object in memory**.
+
+Python manages memory automatically, while languages like C require the programmer to manage memory manually.
+
+---
+
+### round()
+
+`round()` is used to round numbers.
+
+Examples:
+
+```python
+round(3.6)
+# 4
+
+round(3.2)
+# 3
+
+round(3.14159, 2)
+# 3.14
+```
+
+---
+
+## 💡 My Understanding
+
+Today I realized that almost everything can be described as an algorithm.
+
+Examples:
+
+- Following a recipe
+- Traffic lights
+- A coffee machine
+- My Wallet project
+- My To-Do List
+
+Programming is really about describing a process step by step.
+
+---
+
+## 🤯 Aha! Moments
+
+- Everything is an algorithm.
+- Python hides memory management from the programmer.
+- Computer Science is about solving problems, not about learning programming languages.
+
+---
+
+## ❓ Questions
+
+- How does Python manage memory?
+- What is Garbage Collection?
+- Why does C require manual memory management?
+
+---
+
+## 🔗 Connections
+
+Algorithm
+↓
+Program
+↓
+Memory
+↓
+CPU
+↓
+Programming Languages
+
+---
+
+## 📝 Personal Notes
 
 =====================================================================
 Types of knowledge
@@ -66,124 +156,3 @@ Tomamos el punto medio
 =
 
 4.166666
-
-=====================================================================
-What we have there is an algorithm
-=====================================================================
-
-1) A sequence of simple steps
-
-2) Flow of control process that specifies when each steps is executed
-
-3) A means of determining when to stop
-=====================================================================
-ALGORITHM are RECIPES
-
-RECIPES are ALGORITHM
-=====================================================================
-
-- Bake cake from a box
-  
-  1) Mix dry ingridents
-  2) Add eggs and milk
-  3) Pour mixture in a pan
-  4) Bake at 350F for 5 minutes
-  5) Stick a toothpick in the cake
-    - 6) if toothpick does not come out clean, repeat step 4 and 5
-    - 6b) Otherwise, take a pan out of the oven 
-  7) Eat
-=====================================================================
-COMPUTER are MACHINES that EXECUTE ALGORITHM
-
-- Two things computers do:
-
-  performs simple operations
-  100s bilions per second
-
-  Remember results
-  100s of gigabytes of storage
-
-- What kinds of calculations
-
-  Built-in to the machine, e.g.,+
-
-  Ones that you define as the programmer
-
-The BIG IDEA here?
-=====================================================================
-A COMPUTER WILL ONLY DO WHAT YOU TELL IT TO DO
-=====================================================================
-COMPUTERS are MACHINES That EXECUTE ALGORITHM
-
-- Fixed programs computer
-  
-  - fixed set of algorithm
-  - What we had until 1940's
-
-- Store program computer
-
-  - Machine stores and execute instructions 
-
-- Key insight: Programs are no different from other kind of data
-=====================================================================
-STORED PROGRAM COMPUTER
-=====================================================================
-
-- Sequence of instruction stored inside computer
-
-  - Built from predefined set of primitve instructions
-
-1) Arithmetic and logical
-2) Simple tests
-3) Moving data
-
-- Special program(interpreter) executes each instrucion in order
-
-  - Use tests to change flow of control through sequence
-  - Stops when it runs out of instructions or executes a halt instruction
-=====================================================================
-BASIC PRIMITIVES
-=====================================================================
-
-- Turing showed that you can compute anything with a very simple machine with only 6 primitevs: left, right, print, scan, erase, no op
-
-- Real programming languages have
-  
-  - More convenient set of PRIMITIVES
-  - Ways to combine primitives to create new primitives
-
-- Anything computable in one language is computable in any other programming language
-=====================================================================
-ASPECT of LANGUAGES
-
-- Primitive constructs
-
-  - English: Words
-  - Programming languages: numbers, strings simple operators
-=====================================================================
-ASPECTS of LANGUAGES
-=====================================================================
-
-- Syntax
-
-  - English "cat dog boy" -> not syntatically valid
-            "cat hugs boy" -> syntatically valid
-
-  - Programming language "hi"5 -> not syntatically valid
-                          "hi"*5 -> syntatically valid
-=====================================================================
-ASPECT of LANGUAGES
-=====================================================================
-
-- Static semantics: which syntatically valid strings have meaning
-
-  - English: "I are hungry" -> syntatically valid
-                                but static semantics error
-
-  - PL "hi"+5 -> syntatically valid
-                but static semantics error
-
-But the meaning may not bet what programmer intended
-=====================================================================
-WHERE THINGS GO WRONG
-=====================================================================
