@@ -1,0 +1,5 @@
+len() is a function used to retrieve the length of a string in
+the parentheses
+s = "abc"
+len(s) evaluates to 3
+chars = len(s)
